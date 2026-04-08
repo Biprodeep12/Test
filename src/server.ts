@@ -11,7 +11,7 @@ const server = http.createServer((req: IncomingMessage, res: ServerResponse) => 
   res.setHeader('Content-Type', 'text/html');
 
   if (req.url === '/') {
-    res.end(`<h1>Welcome to the Simple Updated Server! ${envTest}</h1>`);
+    res.end(`<h1>Welcome to the Simple more Updated Server! ${envTest}</h1>`);
   } else if (req.url === '/about') {
     res.end('<h1>About Page</h1><p>This is a simple Node.js server.</p>');
   } else if (req.url === '/test') {
